@@ -1,0 +1,20 @@
+.navheader {
+	height: 10%;
+}
+
+.navheaderfont {
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ 
+.logosize {
+	width: 10%;
+}
+
+@media (max-width: 700px){
+	.navheaderfont {
+		float: none;
+    width: 50%;
+		background-color: red;
+  }
+}
